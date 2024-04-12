@@ -1,0 +1,42 @@
+
+.disableIncrement input::-webkit-outer-spin-button,
+.disableIncrement input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.disableIncrement input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.MuiAutocomplete-option-edited:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.MuiAutocomplete-option-edited {
+  background-color: "white";
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.MuiAutocomplete-option-edited-selected:hover {
+  background-color: rgba(144, 0, 0, 0.14);
+}
+
+.MuiAutocomplete-option-edited-selected {
+  background-color: rgba(144, 0, 0, 0.08);
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.GrupBotons-Size{
+  width: 110px;
+  max-height: 5vh;
+}
+
+.GrupBotons-Position{
+  left: 1.4375em; 
+  float: "left";
+}
